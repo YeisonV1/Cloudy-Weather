@@ -1,3 +1,14 @@
 *{
-    color: aqua;
+    color :blue;
+}
+
+.weatherForm{
+    display:inline-flex;
+    
+}
+
+.currentWeaather{
+    display:inline-block;
+    flex-direction:;
+
 }
