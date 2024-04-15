@@ -1,14 +1,37 @@
-*{
-    color :blue;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+ background-color:gray ;
+ max-width: 100%;
+ padding: 10px;
+}
+
+html {
+    background-color: burlywood;  
+}
+
+.container{
+    margin: 20px;
+    background-color: #222;
+    padding: 2em;
+    border-radius: 30px;
+    color: aqua;
+    justify-content: center;
+    align-items: center; 
+}
+body{   
+   
+   
 }
 
 .weatherForm{
-    display:inline-flex;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.currentWeaather{
-    display:inline-block;
-    flex-direction:;
 
-}
+
