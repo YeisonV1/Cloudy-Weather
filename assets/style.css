@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+
+
+header{
+    display: flex;
+    background-color: gray;
+    max-width: 100%;
+    padding: 19px;
+    justify-content: space-between;
+}
+header h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+}
+
+
+.container{
+    margin: 20px;
+    background-color: #222;
+    padding: 2em;
+    border-radius: 30px;
+    color: aqua;
+    justify-content: center;
+    align-items: center; 
+    box-shadow:black 2px 2px 10px 2px;
+}
+body{   
+   
+   
+}
+
+.weatherForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.currentWeather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 1rem;
+    padding-bottom: 20px;
+    
+}
+
+.currentWeather  h3{
+    font-size: 50px;
+}
+
+.currentWeather .tempDisplay{
+    font-size: 20px;
+}
+
+.currentWeather .humidDisplay{
+    font-size: 16px;
+}
+
+.currentWeather .skiesDisplay{
+    font-size: 14px;
+}
+
+.currentWeather .errorBox
+{
+    font-size: 12px;
+}
+
+
+.weatherForm .cityInput{
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 20pt;
+    padding-left: 10px;
+}
+
+.weatherForm #search-button{ 
+    border : none;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+
+
+.button-theme button{
+  border: none;
+  padding:8px;
+  border-radius: 15px;
+  background-color:salmon;
+  
+}
+
+.button-theme button:hover {
+        background-color: aqua;
+}
+
+.FiveDayWeather{
+    display: flex;
+    gap: 6rem;
+    
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+.FiveDayWeather .forecastCard{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.fa-solid fa-magnifying-glass:hover{
+    cursor: pointer;
+}
