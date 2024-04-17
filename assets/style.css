@@ -117,4 +117,6 @@ body{
     gap: 1em;
 }
 
-
+.fa-solid fa-magnifying-glass:hover{
+    cursor: pointer;
+}
