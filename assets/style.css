@@ -88,7 +88,7 @@ body{
 }
 
 
-.button-theme button{
+.dark{
   border: none;
   padding:8px;
   border-radius: 15px;
@@ -96,7 +96,7 @@ body{
   
 }
 
-.button-theme button:hover {
+.dark:hover {
         background-color: aqua;
 }
 
